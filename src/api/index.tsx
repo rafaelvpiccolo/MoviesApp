@@ -1,6 +1,6 @@
 import axios from 'axios';
 const baseUrl = "https://api.themoviedb.org/3"
-const privateToken = "abdf5c7e22416456d9d237e65cb9c0ff"
+const privateToken = ""
 
 const exceptionsHttp = [ 204, 401, 400, 404, 406, 417 ];
 
