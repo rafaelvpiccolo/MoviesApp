@@ -1,6 +1,8 @@
 import axios from 'axios';
 const baseUrl = "http://api.themoviedb.org/3"
-const privateToken = "abdf5c7e22416456d9d237e65cb9c0ff"
+
+// Insira seu token aqui:
+const privateToken = ""
 
 export const Movies = {
     async gatoTeste() {

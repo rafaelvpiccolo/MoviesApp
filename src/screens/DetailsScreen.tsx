@@ -36,7 +36,6 @@ const DetailScreen = () => {
       setRating(movieDetails.vote_average.toFixed(1))
       setGenres(movieDetails.genres)
       setOverview(movieDetails.overview)
-      console.log(navigation)
       setLoading(false);
     }
     fetchData();
